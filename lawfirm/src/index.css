@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #1d1d1d;
+  --color-stamp: #E3B748;
+  --color-badge: #E6E6E6;
+  --color-white: #fff;
+  --color-black: #121212;
+  --color-greyText: #818181;
+}
+
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}

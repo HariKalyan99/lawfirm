@@ -1,0 +1,65 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 43px;
+  margin: 113px 176px 198px 176px;
+  /* border: 1px solid white; */
+}
+
+.jumbo1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbo1 h1 {
+margin-top: 44px;
+  width: 571px;
+  height: 194px;
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 147.523%;
+  color: var(--color-white);
+}
+
+.jumbo1 p {
+  margin-top: 30px;
+  width: 560px;
+  height: 99px;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 162.523%;
+  color: var(--color-greyText);
+}
+
+.jumbo1 input {
+  margin-top: 30px;
+  width: 438px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 43px;
+  opacity: 0.1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162.523%;
+  padding: 24px 184px 24px 62px;
+}
+
+.talkButtton {
+  position: absolute;
+  top: 620px;
+  left: 471px;
+  width: 137px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 43px;
+  background-color: var(--color-stamp);
+  color: var(--color-black);
+  border: var(--color-stamp);
+}
+
+.talkButtton:hover {
+    background-color: var(--color-badge);
+}
+
+
