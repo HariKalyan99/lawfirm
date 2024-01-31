@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   padding: 1rem;
+  border-radius: 14px;
 }
 
 .item2 {
@@ -39,6 +40,7 @@
   padding: 1rem;
   background-color: var(--color-stamp);
   border-radius: 14px;
+  color: var(--color-black);
 }
 
 .item3 {
@@ -47,6 +49,7 @@
   display: flex;
   align-items: center;
   padding: 1rem;
+  border-radius: 14px;
 }
 
 .item4 {
@@ -55,6 +58,7 @@
     display: flex;
     align-items: center;
     padding: 1rem;
+    border-radius: 14px;
   }
   
   .item5 {
@@ -63,6 +67,7 @@
     display: flex;
     align-items: center;
     padding: 1rem;
+    border-radius: 14px;
   }
   
   .item6 {
@@ -71,9 +76,35 @@
     display: flex;
     align-items: center;
     padding: 1rem;
+    border-radius: 14px;
   }
 
+.item1:hover {
+    background-color: var(--color-stamp);
+    color: var(--color-black);
+}
 
+.item2:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.item3:hover {
+    background-color: var(--color-stamp);
+    color: var(--color-black);
+}
+.item4:hover {
+    background-color: var(--color-stamp);
+    color: var(--color-black);
+}
+.item5:hover {
+    background-color: var(--color-stamp);
+    color: var(--color-black);
+}
+.item6:hover {
+    background-color: var(--color-stamp);
+    color: var(--color-black);
+}
 
 
 
