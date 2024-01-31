@@ -1,0 +1,15 @@
+.mySwiper {
+  margin: 0 176px 0 176px;
+}
+
+.mySwiper > h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 143.023%;
+  width: 374px;
+  position: absolute;
+}
+
+.swiperCard {
+  padding-top: 180px;
+}

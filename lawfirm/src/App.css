@@ -1,6 +1,51 @@
 .app {
     /* margin: 0 10rem 1rem 10rem; */
     /* border: 2px solid white; */
-    height: 400vh;
+    height: 600vh;
     background-color: var(--color-primary);
+}
+
+
+.swiper-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+.swiper-button-prev {
+    color: rgb(0, 0, 0) !important;
+    position: absolute !important;
+    top: 26px !important;
+    left: 1115px !important;
+    z-index: 100 !important;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 100px !important;
+    background-color: var(--color-stamp);
+  }
+
+
+  .swiper-button-next {
+    color: rgb(0, 0, 0) !important;
+    position: absolute !important;
+    top: 26px !important;
+    left: 1215px !important;
+    z-index: 100 !important;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 100px !important;
+    background-color: var(--color-stamp);
+  }
+
+
+
+.swiper-button-next.swiper-button-disabled {
+    background-color: rgb(255, 255, 255) !important;
+    opacity: 1 !important;
+}
+
+.swiper-button-prev.swiper-button-disabled {
+    background-color: rgb(255, 255, 255) !important;
+    opacity: 1 !important;
 }
