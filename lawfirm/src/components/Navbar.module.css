@@ -5,10 +5,9 @@
     justify-content: space-between;
     align-items: center;
     height: 4.5rem;
-    padding: 1rem;
+    padding: 1rem 176px 1rem 176px;
     background-color: var(--color-black);
-    margin-left: 176px;
-    margin-right: 176px;
+    z-index: 10;
     /* border: 1px solid white; */
 }
 

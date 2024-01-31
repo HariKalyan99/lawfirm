@@ -9,7 +9,7 @@ const Introduction = () => {
       </div>
       <hr />
       <div className={styles.section2}>
-        <h1>Criminal Lawyer</h1>
+        <h1 >Criminal Lawyer</h1>
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequatduis enim velit mollit Exercitation.

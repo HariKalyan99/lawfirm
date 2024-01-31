@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 359px;
+  height: 377px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  background: #2e2e2e;
+  padding: 28px 43px 46px 24px;
+}
+
+.readMoreButton {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+}
