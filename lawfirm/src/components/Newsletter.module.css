@@ -1,0 +1,39 @@
+.newsletterContainer {
+    margin: 660px 176px 242px 176px;
+    height: 356px;
+    background-color: var(--color-greyText);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletterContainer > h1 {
+    font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 137%;
+}
+
+.sendEmail {
+    margin-top: 42px;
+    display: flex;
+    gap: 9px;
+}
+
+.sendEmail > input {
+    border: none;
+}
+
+.btn {
+    background-color: var(--color-stamp);
+    width: 116px;
+    height: 53px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn:hover {
+    background-color: var(--color-badge);
+}

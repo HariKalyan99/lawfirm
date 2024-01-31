@@ -1,0 +1,39 @@
+.faqContainer {
+    margin: 197px 176px 217px 176px;
+    height: 545px;
+}
+
+.faqContainer > h1 {
+    font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 138.023%;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.faqTag {
+    width: 557px;
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.faqTag > p {
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%;
+color: var(--color-greyText);
+}
+
+
+.faqContent {
+    width: 564px;
+    height: 540px;
+}

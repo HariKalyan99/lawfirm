@@ -82,28 +82,34 @@
 .item1:hover {
     background-color: var(--color-stamp);
     color: var(--color-black);
+    cursor: pointer;
 }
 
 .item2:hover {
     background-color: var(--color-primary);
     color: var(--color-white);
+    cursor: pointer;
 }
 
 .item3:hover {
     background-color: var(--color-stamp);
     color: var(--color-black);
+    cursor: pointer;
 }
 .item4:hover {
     background-color: var(--color-stamp);
     color: var(--color-black);
+    cursor: pointer;
 }
 .item5:hover {
     background-color: var(--color-stamp);
     color: var(--color-black);
+    cursor: pointer;
 }
 .item6:hover {
     background-color: var(--color-stamp);
     color: var(--color-black);
+    cursor: pointer;
 }
 
 

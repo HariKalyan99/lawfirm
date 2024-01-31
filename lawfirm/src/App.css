@@ -1,7 +1,6 @@
 .app {
     /* margin: 0 10rem 1rem 10rem; */
     /* border: 2px solid white; */
-    height: 600vh;
     background-color: var(--color-primary);
 }
 
