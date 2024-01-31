@@ -56,6 +56,7 @@ margin-top: 44px;
   background-color: var(--color-stamp);
   color: var(--color-black);
   border: var(--color-stamp);
+  cursor: pointer;
 }
 
 .talkButtton:hover {

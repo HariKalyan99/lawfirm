@@ -49,4 +49,5 @@
 
 .firmButton:hover {
     background-color: var(--color-stamp);
+    cursor: pointer;
 }
