@@ -1,5 +1,7 @@
 .introPageContainer {
-    margin: 186px 0 179px 0;
+    margin: 186px 176px 179px 176px;
+    display: flex;
+    flex-direction: column;
 }
 
 .whyChooseTag {
@@ -14,7 +16,7 @@ margin-bottom: 88px;
 
 
 .cardContainer {
-    margin: 0 176px 0 176px;
     display: flex;
     justify-content: space-between;
 }
+
