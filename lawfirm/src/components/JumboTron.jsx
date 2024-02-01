@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "./JumboTron.module.css";
 import logo from "../assets/jumboImage.svg";
-// import { IoMdMail } from "react-icons/io"; *todo*
 
 
 const JumboTron = () => {
   return (
     <div className={styles.heroSection}>
       <div className={styles.jumbo1}>
-        <h1>You don’t have to Fight them Alone.</h1>
+        <h1>You don't have to Fight them Alone.</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
           curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,

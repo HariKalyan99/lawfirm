@@ -13,7 +13,6 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    border: 1px solid white;
     margin-bottom: 104px;
     height: 4.5rem;
     align-items: center;
@@ -38,7 +37,38 @@
 
 .copyright {
     display: flex;
-    border: 1px solid white;
     width: 500px;
     justify-content: space-between;
+}
+
+
+.footerContent {
+    width: 431px;
+    height: 26px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .footerContent a {
+      text-decoration: none;
+      color: var(--color-white);
+  }
+
+  .footerContent a:hover {
+    color: var(--color-stamp);
+}
+
+.copyright p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    color: var(--color-white);
+}
+
+.footerMain svg:hover {
+    cursor: pointer;
 }

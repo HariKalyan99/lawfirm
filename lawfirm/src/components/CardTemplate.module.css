@@ -15,4 +15,15 @@
   width: 121px;
   height: 43px;
   border-radius: 23.5px;
+  background-color: var(--color-stamp);
+  border: none;
+}
+
+.readMoreButton:hover {
+  background-color: var(--color-badge);
+  cursor: pointer;
+}
+
+.card p {
+  color: var(--color-greyText);
 }
